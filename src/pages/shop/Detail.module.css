@@ -1,0 +1,113 @@
+.product_detail {
+  margin: 3rem 5rem;
+}
+
+.product_img {
+  display: inline-flex;
+  width: 40%;
+}
+
+.side_img {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#main_img {
+  width: 80%;
+}
+
+.product_desc {
+  display: block;
+  float: right;
+  padding-left: 2rem;
+  width: 60%;
+}
+
+.product_desc h1 {
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.product_desc p,
+.product_feat p {
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.product_desc button {
+  margin: 1px;
+  border: solid 0.5px transparent;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.product_desc input {
+  border: solid transparent;
+  width: 2rem;
+  text-align: center;
+}
+
+.product_desc form {
+  display: inline;
+  padding: 0.5rem;
+  border: 1px solid rgb(228, 230, 233);
+  width: 10rem;
+  margin: 0px;
+}
+.product_desc form p {
+  display: inline;
+  padding-right: 2rem;
+}
+
+#black {
+  margin: 0px;
+  border: solid 1.5px rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 15px;
+}
+
+#price {
+  font-weight: lighter;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.product_feat {
+  margin: 5rem 0rem;
+}
+
+.product_feat,
+.product_feat header {
+  display: inline-block;
+}
+
+.product_feat h2,
+.product_related h2 {
+  font-weight: normal;
+}
+
+#list {
+  white-space: pre-line;
+  font-size: 15px;
+}
+
+.product_related {
+  margin: 0rem 5rem 3rem 5rem;
+}
+
+.related_detail {
+  display: inline-flex;
+  width: 25%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.related_detail img {
+  width: 100%;
+  margin-bottom: 2rem;
+}

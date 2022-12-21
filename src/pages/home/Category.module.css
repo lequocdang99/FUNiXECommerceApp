@@ -1,0 +1,40 @@
+.cat {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cat p {
+  opacity: 0.5;
+  margin: 0;
+  font-size: 12px;
+}
+
+.cat h1 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.cat_img img:hover {
+  opacity: 0.5;
+}
+
+.cat_img img {
+  transition: ease 0.5s;
+}
+
+.img_top {
+  width: 49%;
+}
+
+.img_bot {
+  width: 32%;
+  margin: 2% 2% 0 0;
+}
+
+#top_left {
+  margin-right: 2%;
+}
+
+#bot_right {
+  margin-right: 0;
+}

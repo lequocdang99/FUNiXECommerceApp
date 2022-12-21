@@ -1,0 +1,85 @@
+.checkout {
+  margin: 0rem 5rem 3rem 5rem;
+  height: 100%;
+}
+
+.checkout h1,
+.checkout_total h2 {
+  font-size: 25px;
+}
+
+.checkout_banner {
+  background-color: rgb(248, 249, 250);
+  padding: 5rem 3rem;
+}
+
+.checkout_banner header {
+  display: inline;
+  font-size: 30px;
+}
+
+.checkout p,
+.checkout_banner p {
+  display: inline;
+  float: right;
+  margin-bottom: 0px;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.checkout_form {
+  display: inline-block;
+  width: 65%;
+}
+
+.checkout_form label {
+  display: block;
+}
+
+.checkout_form input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  border-radius: 0px;
+  border: 1px solid rgb(228, 230, 233);
+}
+
+.checkout_form button {
+  padding: 0.5rem 2rem;
+  border: 1px solid rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56);
+  color: white;
+  font-size: 20px;
+}
+
+.checkout_total {
+  display: block;
+  width: 30%;
+  float: right;
+  padding: 2rem;
+  background-color: rgb(248, 249, 250);
+}
+
+.checkout h1,
+.checkout_total h2,
+.checkout_total h3 {
+  font-weight: normal;
+}
+
+.checkout_total h3,
+.checkout_total p {
+  display: inline-block;
+  margin-top: 0rem;
+}
+
+.checkout_total h3 {
+  font-size: 13px;
+  font-weight: bold;
+  width: 50%;
+  margin: 0px;
+}
+
+.checkout_total p {
+  float: right;
+}

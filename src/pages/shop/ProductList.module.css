@@ -1,0 +1,109 @@
+.menu {
+  display: inline-block;
+  margin-top: 2rem;
+  width: 25%;
+}
+
+#apple {
+  background-color: black;
+  color: white;
+}
+
+.menu header {
+  margin: 1rem 0rem;
+  font-size: 20px;
+}
+
+.menu span {
+  display: block;
+  padding: 0.5rem 2rem;
+  width: 80%;
+  background-color: rgb(247, 249, 246);
+}
+
+.menu button {
+  display: block;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  width: 15rem;
+  background-color: transparent;
+  border-color: transparent;
+  text-align: left;
+}
+
+.menu button:hover {
+  color: rgb(196, 160, 0);
+  cursor: pointer;
+}
+
+.result {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  margin-top: 3rem;
+}
+
+.result input {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0px;
+  border: 1px solid rgb(228, 230, 233);
+}
+
+.result select {
+  float: right;
+  margin-top: 1rem;
+}
+
+.category {
+  margin-top: 3rem;
+}
+
+.category_products {
+  display: inline-flex;
+  width: 33%;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.category_products img {
+  width: 100%;
+}
+
+.category_products img:hover {
+  opacity: 0.5;
+}
+
+.category_products img {
+  transition: ease 0.5s;
+}
+
+.result_page {
+  display: inline-flex;
+  flex-direction: column;
+  float: right;
+}
+
+.result_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result_page button {
+  height: 2rem;
+  width: 2rem;
+  margin: 1px;
+  border: solid 0.5px rgb(228, 230, 233);
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.result_page p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+#main {
+  background-color: black;
+  color: white;
+}

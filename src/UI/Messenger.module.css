@@ -1,0 +1,128 @@
+.float {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  border-radius: 4rem;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  scale: 2;
+  z-index: 4;
+}
+
+.float i {
+  margin: 0.25rem;
+  filter: invert(100%);
+}
+
+.mess {
+  position: fixed;
+  bottom: 6rem;
+  right: 6rem;
+  z-index: 3;
+
+  max-width: 30%;
+  margin: 0 auto;
+
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+
+  transition: ease 0.5s;
+}
+
+.header {
+  border-bottom: solid 1px #efefef;
+  padding: 1rem;
+}
+
+.header header,
+.header button {
+  display: inline-block;
+}
+
+.header header {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.header button {
+  float: right;
+  margin: 0;
+  border-color: transparent;
+  transition: ease 0.3s;
+}
+
+.header button:hover {
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+.chat {
+  display: flex;
+  flex-flow: column wrap;
+
+  padding: 1rem;
+}
+
+.chat img,
+.input img {
+  align-self: flex-start;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.bubble {
+  border-radius: 0.5em;
+  padding: 0.5em 0.75em;
+  margin: 0;
+  max-width: 50%;
+}
+
+.sender {
+  align-self: flex-end;
+  background-color: rgb(72, 176, 247);
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+.admin {
+  align-self: flex-start;
+  background-color: #efefef;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.input {
+  display: flex;
+  background-color: rgb(249, 250, 251);
+  padding: 1rem;
+  border-radius: 0 0 0.5em 0.5em;
+  border-top: solid 1px #efefef;
+}
+
+.input button {
+  margin: 0.25rem;
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(201, 199, 199);
+}
+
+.input i {
+  scale: 1.5;
+}
+
+.input input {
+  border-color: transparent;
+  width: 15rem;
+}
+
+#send {
+  color: rgb(72, 176, 247);
+}

@@ -1,0 +1,44 @@
+.products {
+  display: inline-flex;
+  width: 25%;
+  flex-direction: column;
+}
+
+.products img {
+  width: 100%;
+}
+
+.products p,
+.products header {
+  text-align: center;
+}
+
+.products p {
+  opacity: 0.5;
+}
+
+.products header {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.products_text {
+  margin-top: 3rem;
+}
+
+.products_text p {
+  opacity: 0.5;
+  margin: 0;
+}
+
+.products_text h1 {
+  font-weight: normal;
+}
+
+.products img:hover {
+  opacity: 0.5;
+}
+
+.products img {
+  transition: ease 0.5s;
+}
